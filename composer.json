@@ -1,0 +1,19 @@
+{
+    "name": "frenzn/foo-bundle",
+    "description": "FrenznFooBundle",
+    "type": "symfony-bundle",
+    "authors": [
+        {
+            "name": "fnordo",
+            "email": "biorindviech@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Frenzn\\FooBundle\\": ""
+      }
+    },
+    "config": {
+      "sort-packages": true
+    }
+}
