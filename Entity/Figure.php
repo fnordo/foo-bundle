@@ -5,7 +5,13 @@ namespace Frenzn\FooBundle\Entity;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
+ * @ApiResource(
+ *     collectionOperations={"get"},
+ *     itemOperations={"get"}
+ * )
+ *
  * @ORM\Entity()
+ * @ORM\Table('frenzn_figure)
  */
 class Figure
 {

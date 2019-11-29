@@ -15,5 +15,8 @@
     },
     "config": {
       "sort-packages": true
+    },
+    "require": {
+        "api-platform/api-pack": "^1.1"
     }
 }
